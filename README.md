@@ -7,6 +7,7 @@
 ## The Problem
 
 Modern AI systems are **stateless by design**. Every session starts from zero. Every tool forgets what the last tool learned. Every model loses context the moment the conversation ends.
+Every AI remembers only what happened inside its own boundaries. There is no universal memory layer owned by the user and shared across models.
 
 This means:
 - You explain the same project structure to every AI tool, every time
